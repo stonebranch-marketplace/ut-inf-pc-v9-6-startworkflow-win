@@ -3,7 +3,7 @@
 
 This Universal Task allows to schedule an Informatica Power Center Workflow by calling the Power Center Webservices Hub SOAP command “startWorkflow”.
 
-# 1.	Disclaimer
+# 1	Disclaimer
 
 No support and no warranty are provided by Stonebranch GmbH for this document and the related Universal Task. The use of this document and the related Universal Task is on your own risk.
 
@@ -11,7 +11,7 @@ Before using this task in a production system, please perform extensive testing.
 
 Stonebranch GmbH assumes no liability for damage caused by the performance of the Universal Tasks
 
-# 2.	Introduction
+# 2	Introduction
 Informatica Power Center provides a Web Services Hub to schedule Power Center Workflows using the SOAP communications protocol for web services. 
 The here described Universal Task calls the * *“startWorkflow”* * SOAP Webservice to run a Workflow in Power Center.
 
@@ -32,6 +32,7 @@ Some details about the universal task for Power Center:
 -	Http and Https connections are support (Note: the host certificate is not verified)
 
 # 3.	Installation
+
 # 3.1	Software Requirements
 **Universal Task name:** Informatica startWorkflow_Windows
 
@@ -90,7 +91,8 @@ The following describes the installation steps:
    
    ![](images/image2.png)
    
-# 4.	Universal Task Configuration
+# 4	Universal Task Configuration
+
 **1.	Activate: Resolvable Credentials in Universal Automation Center:**
 
 Image 3
@@ -117,6 +119,7 @@ Image 6
 ![](images/image6.png)
 
 # 5. Power Centre
+
 
 The following provides to non-Informatica Consultants an Introduction how to verify that a Workflow, which was started via the Universal Task for Power Center, has been successfully executed in PC.
 
