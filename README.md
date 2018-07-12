@@ -31,7 +31,8 @@ Some details about the universal task for Power Center:
 -	You can select different log-levels e.g. Info and debug
 -	Http and Https connections are support (Note: the host certificate is not verified)
 
-# 3	Installation
+# 3.	Installation
+
 # 3.1	Software Requirements
 **Universal Task name:** Informatica startWorkflow_Windows
 
@@ -91,6 +92,7 @@ The following describes the installation steps:
    ![](images/image2.png)
    
 # 4	Universal Task Configuration
+
 **1.	Activate: Resolvable Credentials in Universal Automation Center:**
 
 Image 3
@@ -116,7 +118,8 @@ Image 6
 
 ![](images/image6.png)
 
-# 5  Power Centre
+# 5. Power Centre
+
 
 The following provides to non-Informatica Consultants an Introduction how to verify that a Workflow, which was started via the Universal Task for Power Center, has been successfully executed in PC.
 
